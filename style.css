@@ -15,9 +15,7 @@
     height: 5rem;
 }
 
-.Middel{
-    background-color: gray;
-}
+
 
 /* .friendProfile{
     display: flex;
@@ -25,6 +23,7 @@
 
 button{
     border:none;
+    background-color: transparent;
 }
 
 .Profile img{
@@ -36,5 +35,31 @@ button{
     height: 2.5rem;
     width: 2.5rem;
     border-radius: 50%;
+}
+
+.slide{
+    overflow-x: hidden;
+}
+
+.topInfo{
+    width: 100%;
+
+}
+
+.navProfile img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.profileInfo{
+    align-items: start;
+}
+.postImg img{
+    max-height: 90vh;
+}
+
+.LeftMenu{
+    height: 80%;
 }
 
